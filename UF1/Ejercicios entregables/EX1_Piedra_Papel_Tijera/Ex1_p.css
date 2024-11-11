@@ -1,0 +1,49 @@
+/* Estils per la data i hora */
+.fecha-hora {
+    font-size: 1.2em;
+    color: #333;
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estils pel joc */
+#juego {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.1em;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #08460b;
+}
+
+#efecto h1, #efecto h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#reiniciar{
+    background-color: #f80404;
+
+}
+#reiniciar:hover{
+    background-color: #580000;
+
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Ex1_p.css">
+    <script type="text/javascript" src="Ex1_p.js"></script>
+    <title>Piedra, Papel o Tijera</title>
+</head>
+<body>
+    <!-- Bloc per mostrar la data i hora -->
+    <div id="fecha-hora" class="fecha-hora"></div>
+    <div id="juego">
+        <h1>Juga Contra la Màquina</h1>
+        
+        <!-- Botons per seleccionar pedra, paper o tisores -->
+        <button onclick="usuario('0');" id="piedra">Pedra</button>
+        <button onclick="usuario('1');" id="papel">Paper</button>
+        <button onclick="usuario('2');" id="tijera">Tisores</button>
+
+        <!-- Secció per mostrar el resultat del joc -->
+        <div id="efecto"></div>
+        <div id="contador" class="contador"></div>
+        <button id="reiniciar"onclick=reiniciarContador(); class="boton-reiniciar">Reiniciar Comptador</button>
+    </div>
+</body>
+</html>
